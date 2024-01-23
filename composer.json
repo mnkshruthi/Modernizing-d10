@@ -34,7 +34,9 @@
         "drupal/restui": "^1.21",
         "drupal/search_api": "^1.29",
         "drupal/twig_tweak": "^3.2",
-        "drush/drush": "^11.3",
+        "drupal/uswds": "^3.0",
+        "drupal/webprofiler": "^10.1",
+        "drush/drush": "^11.6",
         "symfony/stopwatch": "^6.1"
     },
     "require-dev": {
