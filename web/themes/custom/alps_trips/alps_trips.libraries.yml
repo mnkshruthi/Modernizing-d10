@@ -22,3 +22,10 @@ global:
       css/layouts/layout.css: {}
     theme:
       css/theme/print.css: { media: print }
+main:
+  version: VERSION
+  js:
+    build/main.js: {}
+  css:
+    theme:
+      build/styles.css: {}
