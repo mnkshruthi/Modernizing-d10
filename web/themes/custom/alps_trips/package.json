@@ -1,10 +1,10 @@
 {
   "name": "alps_trips",
-  "private": true,
-  "scripts": {
-    "livereload": "livereload css"
-  },
+  "version": "1.0.0",
+  "description": "Alps Trips dependencies",
+  "author": "Shruthi",
+  "license": "GPL-3.0",
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "tailwindcss": "3"
   }
 }
