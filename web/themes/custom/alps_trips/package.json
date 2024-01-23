@@ -1,14 +1,10 @@
 {
   "name": "alps_trips",
-  "version": "1.0.0",
-  "description": "Alps Trips dependencies",
-  "author": "Luca Lusso",
-  "license": "GPL-3.0",
-  "dependencies": {
-  },
+  "private": true,
   "scripts": {
-    "build:dev": "ls",
-    "lint:js": "ls",
-    "lint:css": "ls"
+    "livereload": "livereload css"
+  },
+  "devDependencies": {
+    "livereload": "^0.9.3"
   }
 }
