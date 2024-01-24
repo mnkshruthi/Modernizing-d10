@@ -3,6 +3,8 @@ global:
   js:
     js/alps-trips.js: {}
   css:
+    theme:
+      dist/main.css: {}
     base:
       css/base/elements.css: {}
     component:
@@ -20,12 +22,12 @@ global:
       css/components/buttons.css: {}
     layout:
       css/layouts/layout.css: {}
-    theme:
-      css/theme/print.css: { media: print }
-main:
-  version: VERSION
-  js:
-    build/main.js: {}
-  css:
-    theme:
-      build/styles.css: {}
+    # theme:
+    #   css/theme/print.css: { media: print }
+# main:
+#   version: VERSION
+#   js:
+#     build/main.js: {}
+#   css:
+#     theme:
+#       build/styles.css: {}

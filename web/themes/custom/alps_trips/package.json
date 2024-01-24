@@ -3,7 +3,8 @@
     "build": "webpack --config webpack.config.js",
     "build:dev": "webpack --config webpack.config.js --mode development",
     "start": "webpack --watch",
-    "start:dev": "webpack --watch --mode development"
+    "start:dev": "webpack --watch --mode development",
+    "new": "npx tailwindcss --input src/index.css --output dist/main.css --watch"
   },
   "name": "alps_trips",
   "version": "1.0.0",
