@@ -1,10 +1,24 @@
 {
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:dev": "webpack --config webpack.config.js --mode development",
+    "start": "webpack --watch",
+    "start:dev": "webpack --watch --mode development",
+    "new": "npx tailwindcss --input src/index.css --output dist/main.css --watch"
+  },
   "name": "alps_trips",
   "version": "1.0.0",
   "description": "Alps Trips dependencies",
   "author": "Shruthi",
   "license": "GPL-3.0",
   "devDependencies": {
-    "tailwindcss": "3"
+    "autoprefixer": "^10.4.17",
+    "css-loader": "^6.9.1",
+    "mini-css-extract-plugin": "^2.7.7",
+    "postcss": "^8.4.33",
+    "postcss-loader": "^8.0.0",
+    "tailwindcss": "^3.4.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
